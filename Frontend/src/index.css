@@ -1,0 +1,28 @@
+.container {
+  padding: 20px;
+  max-width: 500px;
+  margin: 50px auto; /* Centers horizontally */
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: center; /* Centers text */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers content */
+  justify-content: center; /* Centers vertically */
+}
+
+.button {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.result-container {
+  width: 100%;
+  text-align: left; /* Keeps result text aligned properly */
+}
+
